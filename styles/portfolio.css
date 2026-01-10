@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 /* shared style */
 .portfolio-open-sans{
   font-family: "Open Sans", sans-serif;
@@ -25,7 +27,9 @@
     font-size: 20px;
     font-weight: 700;
     color: white;
+    cursor: pointer;
 }
+
 
 
 
@@ -34,6 +38,10 @@
 header{
     background-color: #FFF8F3;
     padding-top: 48px;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left 23px top 28px, right bottom ;
+    
 
 }
 
@@ -64,4 +72,99 @@ nav .menu a{
     color: #474747;
     /* justify-content: center; */
     text-decoration: none;
+}
+
+
+#banner{
+    /* border: 1px solid black; */
+    margin: 46px 38px 3px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-content h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-content h1{
+    color: black;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+.banner-content p{
+    color: #474747;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.banner-image{
+    max-width: 584px;
+    vertical-align: middle;
+}
+#about{
+    margin: 130px auto;
+    max-width: 1140px;
+    /* padding: 130px 156px; */
+    /* border: 2px solid black; */
+    
+    background-color: #FFF8F3;
+    width: 1140px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#about .about-me{
+    text-align: center;
+    max-width: 827px;
+    padding: 131px 156px;
+
+}
+
+#about .about-me h4{
+    font-size: 35px;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+#about .about-me p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+}
+
+#about .about-bar{
+    max-width: 782px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#about .about-name h6{
+    font-size: 20px;
+
+}
+#about .about-email h6{
+    font-size: 20px;
+
+}
+#about .about-birth h6{
+    font-size: 20px;
+}
+#about .about-location h6{
+    font-size: 20px;
+
 }
