@@ -30,7 +30,12 @@
     cursor: pointer;
 }
 
-
+hr{
+    color: #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 558px;
+}
 
 
 
@@ -202,7 +207,8 @@ nav .menu a{
 #skill .card-container .card{
     max-width: 267px;
     /* border: 1px solid black; */
-    box-shadow: 0 6px 50px 0px #000000;
+    box-shadow: 0 6px 50px 0px #00000044;
+    margin-bottom: 130px;
 
 }
 
@@ -224,10 +230,112 @@ nav .menu a{
 
 #skill .card-container .card p{
     max-width: 201px;
-    margin: 20px 33px auto 33px;
+    margin: 20px 33px 30px 33px;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     color: #757575;
     text-align: left;
+}
+
+.section-heading{
+    /* border: 1px solid red; */
+    /* padding-left: 572px; */
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 113px;
+}
+
+#eduex{
+    display: flex;
+    gap: 71px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#eduex .education{
+    max-width: 511px;
+    
+}
+
+#eduex .education .edu{
+    max-width: 511px;
+    max-height: 175px;
+    margin-bottom: 30px;
+}
+
+#eduex .education h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+#eduex .education h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+#eduex .education h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+
+#eduex .education p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+
+.........
+
+#eduex .experience{
+    max-width: 511px;
+    
+}
+
+#eduex .experience .ex{
+    max-width: 511px;
+    max-height: 175px;
+    margin-bottom: 30px;
+}
+
+#eduex .experience h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+#eduex .experience h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+#eduex .experience h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+
+#eduex .experience p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+
 }
