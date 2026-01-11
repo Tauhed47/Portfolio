@@ -253,6 +253,8 @@ nav .menu a{
     gap: 71px;
     justify-content: space-evenly;
     align-items: center;
+    max-width: 1093px;
+    margin: 0 auto;
     
 }
 
@@ -297,7 +299,6 @@ nav .menu a{
 
 }
 
-.........
 
 #eduex .experience{
     max-width: 511px;
@@ -338,4 +339,62 @@ nav .menu a{
     color: #757575;
     margin-bottom: 30px;
 
+}
+footer{
+    max-width: 1600px;
+    max-height: 780px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.footer-container{
+    display: flex;
+    gap: 117px;
+    justify-content: space-between;
+}
+
+.footer-container .social{
+    max-width: 562px;
+}
+.footer-container .social h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 18px;
+}
+
+.footer-container .social p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+
+.footer-container .social a{
+    max-width: 24px;
+    max-height: 24px;
+    cursor: pointer;
+    margin-right: 24px;
+}
+
+.footer-container .msg h3{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 28px;
+
+}
+
+.footer-container input[type="text"] {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.footer-container input[type="email"] {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
 }
